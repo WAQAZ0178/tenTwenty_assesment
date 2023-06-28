@@ -1,0 +1,482 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mmp_admin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:4:5-64
+13-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:4:22-62
+14
+15    <uses-feature
+15-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:5:5-85
+16        android:name="android.hardware.camera"
+16-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:5:19-57
+17        android:required="false" />
+17-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:5:58-82
+18    <uses-feature
+18-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:6:5-91
+19        android:name="android.hardware.camera.front"
+19-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:6:19-63
+20        android:required="false" />
+20-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:6:64-88
+21
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->[com.facebook.flipper:flipper:0.125.0] /Users/waqas/.gradle/caches/transforms-3/ac3210cf09bffc363f2ea49beeb55d1d/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+22-->[com.facebook.flipper:flipper:0.125.0] /Users/waqas/.gradle/caches/transforms-3/ac3210cf09bffc363f2ea49beeb55d1d/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->[:react-native-firebase_auth] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+23-->[:react-native-firebase_auth] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[:react-native-firebase_auth] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+24-->[:react-native-firebase_auth] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+25
+26    <queries>
+26-->[:react-native-image-crop-picker] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+27        <intent>
+27-->[:react-native-image-crop-picker] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+28            <action android:name="android.media.action.IMAGE_CAPTURE" />
+28-->[:react-native-image-crop-picker] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+28-->[:react-native-image-crop-picker] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+29        </intent>
+30    </queries>
+31
+32    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+32-->[:react-native-image-crop-picker] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-81
+32-->[:react-native-image-crop-picker] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:22-78
+33    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+33-->[com.google.firebase:firebase-messaging:23.1.1] /Users/waqas/.gradle/caches/transforms-3/93a27c5032d4c5c265ab0e66b42f188d/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:25:5-77
+33-->[com.google.firebase:firebase-messaging:23.1.1] /Users/waqas/.gradle/caches/transforms-3/93a27c5032d4c5c265ab0e66b42f188d/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:25:22-74
+34    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+34-->[com.google.firebase:firebase-messaging:23.1.1] /Users/waqas/.gradle/caches/transforms-3/93a27c5032d4c5c265ab0e66b42f188d/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:28:5-82
+34-->[com.google.firebase:firebase-messaging:23.1.1] /Users/waqas/.gradle/caches/transforms-3/93a27c5032d4c5c265ab0e66b42f188d/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:28:22-79
+35
+36    <application
+36-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:8:5-27:19
+37        android:name="com.mmp_admin.MainApplication"
+37-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:9:7-38
+38        android:allowBackup="false"
+38-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:13:7-34
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.7.0] /Users/waqas/.gradle/caches/transforms-3/7e45f2e4d40bb154df0ed23ebc6163ff/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:11:7-41
+42        android:label="@string/app_name"
+42-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:10:7-39
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:12:7-52
+44        android:theme="@style/AppTheme"
+44-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:14:7-38
+45        android:usesCleartextTraffic="true" >
+45-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/debug/AndroidManifest.xml:8:9-44
+46        <activity
+46-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/debug/AndroidManifest.xml:11:9-111
+47            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+47-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/debug/AndroidManifest.xml:11:19-83
+48            android:exported="false" />
+48-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/debug/AndroidManifest.xml:11:84-108
+49        <activity
+49-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:15:7-26:18
+50            android:name="com.mmp_admin.MainActivity"
+50-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:16:9-37
+51            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+51-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:18:9-118
+52            android:exported="true"
+52-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:21:9-32
+53            android:label="@string/app_name"
+53-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:17:9-41
+54            android:launchMode="singleTask"
+54-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:19:9-40
+55            android:windowSoftInputMode="adjustResize" >
+55-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:20:9-51
+56            <intent-filter>
+56-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:22:9-25:25
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:23:13-65
+57-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:23:21-62
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:24:13-73
+59-->/Users/waqas/Desktop/MyPc/React_Native/Movies App/android/app/src/main/AndroidManifest.xml:24:23-70
+60            </intent-filter>
+61        </activity>
+62
+63        <service
+63-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
+64            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+64-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-103
+65            android:exported="false" />
+65-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+66        <service
+66-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:19
+67            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+67-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-95
+68            android:exported="false" >
+68-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+69            <intent-filter>
+69-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
+70                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+70-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
+70-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
+71            </intent-filter>
+72        </service>
+73
+74        <receiver
+74-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-32:20
+75            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+75-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-96
+76            android:exported="true"
+76-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+77            android:permission="com.google.android.c2dm.permission.SEND" >
+77-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-73
+78            <intent-filter>
+78-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+79                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+79-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+79-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+80            </intent-filter>
+81        </receiver>
+82
+83        <meta-data
+83-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-36:36
+84            android:name="firebase_messaging_auto_init_enabled"
+84-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-64
+85            android:value="true" />
+85-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-33
+86        <meta-data
+86-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-39:32
+87            android:name="com.google.firebase.messaging.default_notification_channel_id"
+87-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-89
+88            android:value="" />
+88-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-29
+89        <meta-data
+89-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-42:47
+90            android:name="com.google.firebase.messaging.default_notification_color"
+90-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-84
+91            android:resource="@color/white" />
+91-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44
+92        <meta-data
+92-->[:react-native-firebase_app] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
+93            android:name="app_data_collection_default_enabled"
+93-->[:react-native-firebase_app] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
+94            android:value="true" />
+94-->[:react-native-firebase_app] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
+95
+96        <service
+96-->[:react-native-firebase_app] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
+97            android:name="com.google.firebase.components.ComponentDiscoveryService"
+97-->[:react-native-firebase_app] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
+98            android:directBootAware="true"
+98-->[:react-native-firebase_app] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
+99            android:exported="false" >
+99-->[:react-native-firebase_app] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+100            <meta-data
+100-->[:react-native-firebase_app] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
+101                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+101-->[:react-native-firebase_app] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[:react-native-firebase_app] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-firestore:24.4.1] /Users/waqas/.gradle/caches/transforms-3/dbf90e2621d775d395ef0b5701348e29/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:19:13-21:85
+104                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+104-->[com.google.firebase:firebase-firestore:24.4.1] /Users/waqas/.gradle/caches/transforms-3/dbf90e2621d775d395ef0b5701348e29/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:20:17-111
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-firestore:24.4.1] /Users/waqas/.gradle/caches/transforms-3/dbf90e2621d775d395ef0b5701348e29/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:21:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+107                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+107-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-messaging:23.1.1] /Users/waqas/.gradle/caches/transforms-3/93a27c5032d4c5c265ab0e66b42f188d/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:55:13-57:85
+110                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+110-->[com.google.firebase:firebase-messaging:23.1.1] /Users/waqas/.gradle/caches/transforms-3/93a27c5032d4c5c265ab0e66b42f188d/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:56:17-119
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-messaging:23.1.1] /Users/waqas/.gradle/caches/transforms-3/93a27c5032d4c5c265ab0e66b42f188d/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:57:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-storage:20.1.0] /Users/waqas/.gradle/caches/transforms-3/6682a5dac0f7284b0fd5854d94b40832/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+113                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+113-->[com.google.firebase:firebase-storage:20.1.0] /Users/waqas/.gradle/caches/transforms-3/6682a5dac0f7284b0fd5854d94b40832/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-storage:20.1.0] /Users/waqas/.gradle/caches/transforms-3/6682a5dac0f7284b0fd5854d94b40832/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/waqas/.gradle/caches/transforms-3/35a03ca69d54c6c1317c70bc6e0c930e/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+116                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+116-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/waqas/.gradle/caches/transforms-3/35a03ca69d54c6c1317c70bc6e0c930e/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/waqas/.gradle/caches/transforms-3/35a03ca69d54c6c1317c70bc6e0c930e/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-installations:17.1.0] /Users/waqas/.gradle/caches/transforms-3/7b945e7b4ca89547ffb79d43e2b2922f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+119                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+119-->[com.google.firebase:firebase-installations:17.1.0] /Users/waqas/.gradle/caches/transforms-3/7b945e7b4ca89547ffb79d43e2b2922f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-installations:17.1.0] /Users/waqas/.gradle/caches/transforms-3/7b945e7b4ca89547ffb79d43e2b2922f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+121        </service>
+122
+123        <provider
+123-->[:react-native-firebase_app] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
+124            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+124-->[:react-native-firebase_app] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
+125            android:authorities="com.mmp_admin.reactnativefirebaseappinitprovider"
+125-->[:react-native-firebase_app] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
+126            android:exported="false"
+126-->[:react-native-firebase_app] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+127            android:initOrder="99" />
+127-->[:react-native-firebase_app] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
+128        <provider
+128-->[:react-native-image-crop-picker] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+129            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+129-->[:react-native-image-crop-picker] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-94
+130            android:authorities="com.mmp_admin.provider"
+130-->[:react-native-image-crop-picker] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+131            android:exported="false"
+131-->[:react-native-image-crop-picker] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+132            android:grantUriPermissions="true" >
+132-->[:react-native-image-crop-picker] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+133            <meta-data
+133-->[:react-native-image-crop-picker] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:78
+134                android:name="android.support.FILE_PROVIDER_PATHS"
+134-->[:react-native-image-crop-picker] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+135                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+135-->[:react-native-image-crop-picker] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-75
+136        </provider>
+137
+138        <activity
+138-->[:react-native-image-crop-picker] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+139            android:name="com.yalantis.ucrop.UCropActivity"
+139-->[:react-native-image-crop-picker] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+140            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+140-->[:react-native-image-crop-picker] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+141        <activity
+141-->[com.google.android.gms:play-services-auth:20.3.0] /Users/waqas/.gradle/caches/transforms-3/3b96ddc8b9461491a96b69c3b9ef843a/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+142            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+142-->[com.google.android.gms:play-services-auth:20.3.0] /Users/waqas/.gradle/caches/transforms-3/3b96ddc8b9461491a96b69c3b9ef843a/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+143            android:excludeFromRecents="true"
+143-->[com.google.android.gms:play-services-auth:20.3.0] /Users/waqas/.gradle/caches/transforms-3/3b96ddc8b9461491a96b69c3b9ef843a/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+144            android:exported="false"
+144-->[com.google.android.gms:play-services-auth:20.3.0] /Users/waqas/.gradle/caches/transforms-3/3b96ddc8b9461491a96b69c3b9ef843a/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+145            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+145-->[com.google.android.gms:play-services-auth:20.3.0] /Users/waqas/.gradle/caches/transforms-3/3b96ddc8b9461491a96b69c3b9ef843a/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+146        <!--
+147            Service handling Google Sign-In user revocation. For apps that do not integrate with
+148            Google Sign-In, this service will never be started.
+149        -->
+150        <service
+150-->[com.google.android.gms:play-services-auth:20.3.0] /Users/waqas/.gradle/caches/transforms-3/3b96ddc8b9461491a96b69c3b9ef843a/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+151            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+151-->[com.google.android.gms:play-services-auth:20.3.0] /Users/waqas/.gradle/caches/transforms-3/3b96ddc8b9461491a96b69c3b9ef843a/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+152            android:exported="true"
+152-->[com.google.android.gms:play-services-auth:20.3.0] /Users/waqas/.gradle/caches/transforms-3/3b96ddc8b9461491a96b69c3b9ef843a/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+153            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+153-->[com.google.android.gms:play-services-auth:20.3.0] /Users/waqas/.gradle/caches/transforms-3/3b96ddc8b9461491a96b69c3b9ef843a/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+154            android:visibleToInstantApps="true" />
+154-->[com.google.android.gms:play-services-auth:20.3.0] /Users/waqas/.gradle/caches/transforms-3/3b96ddc8b9461491a96b69c3b9ef843a/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+155
+156        <meta-data
+156-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/waqas/.gradle/caches/transforms-3/9fd43815dcfb29e83e51980df440d9bb/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+157            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+157-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/waqas/.gradle/caches/transforms-3/9fd43815dcfb29e83e51980df440d9bb/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+158            android:value="GlideModule" />
+158-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/waqas/.gradle/caches/transforms-3/9fd43815dcfb29e83e51980df440d9bb/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+159
+160        <activity
+160-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+161            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+161-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+162            android:excludeFromRecents="true"
+162-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+163            android:exported="true"
+163-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+164            android:launchMode="singleTask"
+164-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+165-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+166            <intent-filter>
+166-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+167                <action android:name="android.intent.action.VIEW" />
+167-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+167-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+168
+169                <category android:name="android.intent.category.DEFAULT" />
+169-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+169-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+170                <category android:name="android.intent.category.BROWSABLE" />
+170-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+170-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+171
+172                <data
+172-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+173                    android:host="firebase.auth"
+173-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+174                    android:path="/"
+174-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+175                    android:scheme="genericidp" />
+175-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+176            </intent-filter>
+177        </activity>
+178        <activity
+178-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+179            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+179-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+180            android:excludeFromRecents="true"
+180-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+181            android:exported="true"
+181-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+182            android:launchMode="singleTask"
+182-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+183            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+183-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+184            <intent-filter>
+184-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+185                <action android:name="android.intent.action.VIEW" />
+185-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+185-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+186
+187                <category android:name="android.intent.category.DEFAULT" />
+187-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+187-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+188                <category android:name="android.intent.category.BROWSABLE" />
+188-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+188-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+189
+190                <data
+190-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+191                    android:host="firebase.auth"
+191-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+192                    android:path="/"
+192-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+193                    android:scheme="recaptcha" />
+193-->[com.google.firebase:firebase-auth:21.1.0] /Users/waqas/.gradle/caches/transforms-3/7221a72d8afbe762352d3dac9a704747/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+194            </intent-filter>
+195        </activity>
+196
+197        <receiver
+197-->[com.google.firebase:firebase-messaging:23.1.1] /Users/waqas/.gradle/caches/transforms-3/93a27c5032d4c5c265ab0e66b42f188d/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:31:9-38:20
+198            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+198-->[com.google.firebase:firebase-messaging:23.1.1] /Users/waqas/.gradle/caches/transforms-3/93a27c5032d4c5c265ab0e66b42f188d/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:32:13-78
+199            android:exported="true"
+199-->[com.google.firebase:firebase-messaging:23.1.1] /Users/waqas/.gradle/caches/transforms-3/93a27c5032d4c5c265ab0e66b42f188d/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:33:13-36
+200            android:permission="com.google.android.c2dm.permission.SEND" >
+200-->[com.google.firebase:firebase-messaging:23.1.1] /Users/waqas/.gradle/caches/transforms-3/93a27c5032d4c5c265ab0e66b42f188d/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:34:13-73
+201            <intent-filter>
+201-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+202                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+202-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+202-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+203            </intent-filter>
+204        </receiver>
+205        <!--
+206             FirebaseMessagingService performs security checks at runtime,
+207             but set to not exported to explicitly avoid allowing another app to call it.
+208        -->
+209        <service
+209-->[com.google.firebase:firebase-messaging:23.1.1] /Users/waqas/.gradle/caches/transforms-3/93a27c5032d4c5c265ab0e66b42f188d/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:44:9-51:19
+210            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+210-->[com.google.firebase:firebase-messaging:23.1.1] /Users/waqas/.gradle/caches/transforms-3/93a27c5032d4c5c265ab0e66b42f188d/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:45:13-82
+211            android:directBootAware="true"
+211-->[com.google.firebase:firebase-messaging:23.1.1] /Users/waqas/.gradle/caches/transforms-3/93a27c5032d4c5c265ab0e66b42f188d/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:46:13-43
+212            android:exported="false" >
+212-->[com.google.firebase:firebase-messaging:23.1.1] /Users/waqas/.gradle/caches/transforms-3/93a27c5032d4c5c265ab0e66b42f188d/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:47:13-37
+213            <intent-filter android:priority="-500" >
+213-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
+214                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+214-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
+214-->[:react-native-firebase_messaging] /Users/waqas/Desktop/MyPc/React_Native/Movies App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
+215            </intent-filter>
+216        </service>
+217
+218        <activity
+218-->[com.google.android.gms:play-services-base:18.0.1] /Users/waqas/.gradle/caches/transforms-3/097cf4d05e35ff4f6df20523310cefca/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+219            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+219-->[com.google.android.gms:play-services-base:18.0.1] /Users/waqas/.gradle/caches/transforms-3/097cf4d05e35ff4f6df20523310cefca/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+220            android:exported="false"
+220-->[com.google.android.gms:play-services-base:18.0.1] /Users/waqas/.gradle/caches/transforms-3/097cf4d05e35ff4f6df20523310cefca/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+221            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+221-->[com.google.android.gms:play-services-base:18.0.1] /Users/waqas/.gradle/caches/transforms-3/097cf4d05e35ff4f6df20523310cefca/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+222
+223        <provider
+223-->[com.google.firebase:firebase-common:20.2.0] /Users/waqas/.gradle/caches/transforms-3/a445cf14daeb5bbbd6649ea46525596f/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+224            android:name="com.google.firebase.provider.FirebaseInitProvider"
+224-->[com.google.firebase:firebase-common:20.2.0] /Users/waqas/.gradle/caches/transforms-3/a445cf14daeb5bbbd6649ea46525596f/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+225            android:authorities="com.mmp_admin.firebaseinitprovider"
+225-->[com.google.firebase:firebase-common:20.2.0] /Users/waqas/.gradle/caches/transforms-3/a445cf14daeb5bbbd6649ea46525596f/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+226            android:directBootAware="true"
+226-->[com.google.firebase:firebase-common:20.2.0] /Users/waqas/.gradle/caches/transforms-3/a445cf14daeb5bbbd6649ea46525596f/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+227            android:exported="false"
+227-->[com.google.firebase:firebase-common:20.2.0] /Users/waqas/.gradle/caches/transforms-3/a445cf14daeb5bbbd6649ea46525596f/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+228            android:initOrder="100" />
+228-->[com.google.firebase:firebase-common:20.2.0] /Users/waqas/.gradle/caches/transforms-3/a445cf14daeb5bbbd6649ea46525596f/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+229
+230        <meta-data
+230-->[com.google.android.gms:play-services-basement:18.1.0] /Users/waqas/.gradle/caches/transforms-3/ff268bcf54c531a958dda3ba847f4ea9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+231            android:name="com.google.android.gms.version"
+231-->[com.google.android.gms:play-services-basement:18.1.0] /Users/waqas/.gradle/caches/transforms-3/ff268bcf54c531a958dda3ba847f4ea9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+232            android:value="@integer/google_play_services_version" />
+232-->[com.google.android.gms:play-services-basement:18.1.0] /Users/waqas/.gradle/caches/transforms-3/ff268bcf54c531a958dda3ba847f4ea9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+233
+234        <provider
+234-->[androidx.emoji2:emoji2:1.0.0] /Users/waqas/.gradle/caches/transforms-3/40747b8b885adb720bb07fd271822ae6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+235            android:name="androidx.startup.InitializationProvider"
+235-->[androidx.emoji2:emoji2:1.0.0] /Users/waqas/.gradle/caches/transforms-3/40747b8b885adb720bb07fd271822ae6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+236            android:authorities="com.mmp_admin.androidx-startup"
+236-->[androidx.emoji2:emoji2:1.0.0] /Users/waqas/.gradle/caches/transforms-3/40747b8b885adb720bb07fd271822ae6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+237            android:exported="false" >
+237-->[androidx.emoji2:emoji2:1.0.0] /Users/waqas/.gradle/caches/transforms-3/40747b8b885adb720bb07fd271822ae6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+238            <meta-data
+238-->[androidx.emoji2:emoji2:1.0.0] /Users/waqas/.gradle/caches/transforms-3/40747b8b885adb720bb07fd271822ae6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+239                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+239-->[androidx.emoji2:emoji2:1.0.0] /Users/waqas/.gradle/caches/transforms-3/40747b8b885adb720bb07fd271822ae6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+240                android:value="androidx.startup" />
+240-->[androidx.emoji2:emoji2:1.0.0] /Users/waqas/.gradle/caches/transforms-3/40747b8b885adb720bb07fd271822ae6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+241            <meta-data
+241-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/waqas/.gradle/caches/transforms-3/680733d1416e9f5b9483f94556cb1827/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+242                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+242-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/waqas/.gradle/caches/transforms-3/680733d1416e9f5b9483f94556cb1827/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+243                android:value="androidx.startup" />
+243-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/waqas/.gradle/caches/transforms-3/680733d1416e9f5b9483f94556cb1827/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+244        </provider>
+245
+246        <service
+246-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/waqas/.gradle/caches/transforms-3/e8d35d432ac5ca58f713f0462f7b4768/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+247            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+247-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/waqas/.gradle/caches/transforms-3/e8d35d432ac5ca58f713f0462f7b4768/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+248            android:exported="false" >
+248-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/waqas/.gradle/caches/transforms-3/e8d35d432ac5ca58f713f0462f7b4768/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+249            <meta-data
+249-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/waqas/.gradle/caches/transforms-3/e8d35d432ac5ca58f713f0462f7b4768/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+250                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+250-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/waqas/.gradle/caches/transforms-3/e8d35d432ac5ca58f713f0462f7b4768/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+251                android:value="cct" />
+251-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/waqas/.gradle/caches/transforms-3/e8d35d432ac5ca58f713f0462f7b4768/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+252        </service>
+253        <service
+253-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/waqas/.gradle/caches/transforms-3/5edf17b0fa45d76ad2f82505d260b188/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+254            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+254-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/waqas/.gradle/caches/transforms-3/5edf17b0fa45d76ad2f82505d260b188/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+255            android:exported="false"
+255-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/waqas/.gradle/caches/transforms-3/5edf17b0fa45d76ad2f82505d260b188/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+256            android:permission="android.permission.BIND_JOB_SERVICE" >
+256-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/waqas/.gradle/caches/transforms-3/5edf17b0fa45d76ad2f82505d260b188/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+257        </service>
+258
+259        <receiver
+259-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/waqas/.gradle/caches/transforms-3/5edf17b0fa45d76ad2f82505d260b188/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+260            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+260-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/waqas/.gradle/caches/transforms-3/5edf17b0fa45d76ad2f82505d260b188/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+261            android:exported="false" />
+261-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/waqas/.gradle/caches/transforms-3/5edf17b0fa45d76ad2f82505d260b188/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+262    </application>
+263
+264</manifest>
